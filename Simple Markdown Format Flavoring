@@ -1,0 +1,56 @@
+There are various methods of formatting using Markdown.
+
+# Is for Headers
+## Is for Headers 2
+### Is for Headers 3
+etc...
+
+**insert text here** is for BOLD
+
+*insert text* is for italics
+
+> is for quoting
+
+
+``` is for code ```
+
+example 
+
+## Code Block
+
+``` javascript
+
+
+// ES5 syntax
+var multiply = function(x, y) {
+  return x * y;
+};
+
+// ES6 arrow function
+var multiply = (x, y) => { return x * y; };
+
+// Or even simpler
+var multiply = (x, y) => x * y; ```
+
+Ordered list
+1.
+2.
+3.
+etc...
+
+Unordered list
+*
+*
+*
+etc...
+
+
+
+#Advanced Markdown Flavoring
+
+| and - create tables
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
